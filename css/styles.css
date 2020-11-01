@@ -1,0 +1,268 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  font-family: "Poppins";
+}
+
+.landing-navBar {
+  height: 65px;
+  background-image: linear-gradient(to right, #00042f, #004e9f);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+.landing-navBarInner {
+  display: flex;
+  align-items: center;
+}
+
+.landing-logoImage {
+  height: 40px;
+}
+
+.landing-navBtn:link, .landing-navBtn:visited, .landing-navBtn:active, .landing-navBtn:hover {
+  color: white;
+  margin-right: 60px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.landing-signupBtn:link, .landing-signupBtn:visited, .landing-signupBtn:active, .landing-signupBtn:hover {
+  color: white;
+  margin-right: 50px;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  border-color: white;
+  border-width: thin;
+  border-style: solid;
+}
+
+.landing-logoImage {
+  height: 45px;
+  padding-bottom: 5px;
+}
+
+.landing-topContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 725px;
+  background-image: linear-gradient(to right, #00042f, #004e9f);
+  padding-top: 50px;
+  /* border-bottom-left-radius: 60% 30px;
+  border-bottom-right-radius: 60% 30px; */
+}
+
+.landing-topHeader {
+  color: white;
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.landing-topSubtext {
+  color: lightgray;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.landing-topSignUp:link, .landing-topSignUp:visited, .landing-topSignUp:active, .landing-topSignUp:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 50px;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 10px;
+  background-color: #4278ed;
+}
+
+.landing-topSignUp:hover {
+  background-color: #427aff;
+}
+
+.landing-topCaption {
+  color: lightgray;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.landing-demoImage {
+  width: 450px;
+  margin-top: 50px;
+  border-radius: 20px;
+  filter: drop-shadow(-8px 8px 14px black);
+}
+
+.landing-casesContainer {
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+
+.landing-casesInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-casesImage {
+  height: 150px;
+}
+
+.landing-casesHeader {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.landing-casesDescription {
+  font-size: 14px;
+  color: gray;
+  width: 280px;
+  text-align: center;
+}
+
+.landing-howContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 125px;
+  margin-right: 125px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  align-items: center;
+}
+
+.landing-howHeader {
+  font-size: 45px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.landing-howStepContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.landing-howImage {
+  height: 370px;
+  border-radius: 30px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding: 5px;
+}
+
+.landing-howStepTextContainerLeft {
+  margin-right: 80px;
+}
+
+.landing-howStepTextContainerRight {
+  margin-left: 80px;
+}
+
+.landing-howStepHeader {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.landing-howStepDescription {
+  color: gray;
+  margin-top: 5px;
+  text-align: justify;
+}
+
+.landing-whyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 125px;
+  margin-right: 125px;
+  margin-bottom: 80px;
+}
+
+.landing-whyHeader {
+  font-size: 45px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.landing-whyInnerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.landing-signupContainer {
+  background-image: linear-gradient(to right, #00042f, #004e9f);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 260px;
+}
+
+.landing-signupHeader {
+  font-size: 30px;
+  color: white;
+}
+
+.landing-signupSubtext {
+  font-size: 15px;
+  color: lightgray;
+}
+
+.landing-signupInput {
+  margin-top: 25px;
+  width: 250px;
+  background-color: white;
+  border-style: none;
+  color: black;
+  border-bottom: 1px solid #1F2565;
+  font-family: "Poppins";
+  font-size: 14px;
+  margin-right: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 5px;
+}
+
+.landing-signupInput:focus {
+  outline: none;
+}
+
+.landing-signupButton {
+  width: 120px;
+  padding: 6px;
+  background-color: white;
+  font-family: 'Poppins';
+  border-radius: 20px;
+  font-weight: bold;
+  color: #1F2565;
+  text-decoration: none;
+  text-align: center;
+}
